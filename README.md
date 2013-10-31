@@ -61,6 +61,7 @@ Your sources are in ./apps/myapp/src
 We're going to add the possibility to make additions with our cluster
 
 Check these two files:
+
 ./apps/myapp/src/myapp.erl
 
 ./apps/myapp/src/myapp_vnode.erl
