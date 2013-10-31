@@ -1,0 +1,8 @@
+*.beam
+.eunit
+deps/*
+apps/myapp/ebin
+*~
+dev/*
+doc/*
+rel/myapp
