@@ -54,13 +54,15 @@ compile & deploy your app on nodes:
 play & run functions on your node:
 >./dev/dev1/bin/myapp attach
 
-** Sources
+## Sources
+
 Your sources are in ./apps/myapp/src
 
 We're going to add the possibility to make additions with our cluster
 
 Check these two files:
 ./apps/myapp/src/myapp.erl
+
 ./apps/myapp/src/myapp_vnode.erl
 
 I've just added addition(L) in myapp.erl and handle_command({addition, Data}, _Sender, State) & sum function in myapp_vnode.erl
