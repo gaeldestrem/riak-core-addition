@@ -23,6 +23,7 @@ dev = play with multiple nodes
 
 start & stop your app:
 >./rel/myapp/bin/myapp start
+>
 >./rel/myapp/bin/myapp stop
 
 play & run functions on your node:
@@ -35,6 +36,7 @@ compile & deploy your app:
 
 start & stop your nodes:
 > for d in dev/dev*; do $d/bin/myapp start; done
+>
 > for d in dev/dev*; do $d/bin/myapp stop; done
 
 check if they are alive:
@@ -70,6 +72,7 @@ and when you play with your shell, you should be able to do additions now :)
 
 >(myapp1@127.0.0.1)1> myapp:addition([2,4]).
 >{6,319703483166135013357056057156686910549735243776}
+>
 >(myapp1@127.0.0.1)2> myapp:addition([2,8]).
 >{10,91343852333181432387730302044767688728495783936}
 
