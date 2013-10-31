@@ -16,6 +16,7 @@ At the end, you should be able to ping your nodes :)
 You've got 2 environements where you can compile your sources, rel and dev
 
 rel = play with one node
+
 dev = play with multiple nodes
 
 ### Rel
